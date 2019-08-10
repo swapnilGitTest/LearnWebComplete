@@ -22,7 +22,7 @@ public class Swagger2 {
     public Docket productApi() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .select().apis(RequestHandlerSelectors.basePackage("com.learn.rest.controller"))
-                .paths(regex("/TestController.*"))
+                .paths(regex("/.*"))
                 .build().apiInfo(metaData());
     }
     private ApiInfo metaData() {
