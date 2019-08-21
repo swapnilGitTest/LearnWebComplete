@@ -46,7 +46,7 @@ cmake-build-*/
 *.iws
 
 # IntelliJ
-#out/
+out/
 
 # mpeltonen/sbt-idea plugin
 .idea_modules/
@@ -72,3 +72,5 @@ fabric.properties
 .gitignore
 .idea/
 LearnE2EWeb.iml
+
+*Store
