@@ -32,5 +32,4 @@ public class BootSecurity extends WebSecurityConfigurerAdapter {
                 .password("{noop}password")
                 .roles("USER");
     }
-
 }
