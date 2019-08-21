@@ -72,3 +72,5 @@ fabric.properties
 .gitignore
 .idea/
 LearnE2EWeb.iml
+
+*Store
